@@ -36,7 +36,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST", 
-        auth: "ria24:a2c0d7af511ee23b08ee6e422d10e5b82-us12"
+        auth: "ria24:2c0d7af511ee23b08ee6e422d10e5b82-us12"
     };
     
     const request = https.request(url, options, function(response) {
